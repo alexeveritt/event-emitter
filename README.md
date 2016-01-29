@@ -1,4 +1,4 @@
-# event-emitter
+# Javascript EventEmitter
 A simple javascript event emitter for use in the browser written with commonJS
 
 I wrote this in about an hour to get a job done, so it's not fully tested at the moment and needs a bit of refactoring.
