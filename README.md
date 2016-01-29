@@ -5,7 +5,7 @@ I wrote this in about an hour to get a job done, so it's not fully tested at the
 I will come back and clean up however I thought I'd share it in the meantime :)
 
 ```
-var EventEmitter = require('./index');
+var EventEmitter = require('./event-emitter');
 var emitter=new EventEmitter();
 emitter.on('start', function(msg){alert(msg)};);
 emitter.emit('start', 'started');
@@ -14,7 +14,7 @@ emitter.emit('start', 'started');
 Below is an example of how the EventEmitter can be inherited by another class
 
 ```
-var EventEmitter = require('./index');
+var EventEmitter = require('./event-emitter');
 module.exports = car;
 var self;
 
