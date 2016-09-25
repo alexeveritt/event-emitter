@@ -16,7 +16,7 @@ function EventEmitter() {
 
     this.removeEvents = (key, func)=> {
         let evts = this.events;
-        if (typeof key === 'undefined') {
+        if (!key) {
             // remove all the events
             return evts.splice(0, evts.length);
         }
