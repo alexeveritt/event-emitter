@@ -21,7 +21,6 @@ var self;
 function car() {
     self = this;
     EventEmitter.apply(this, arguments)
-    //  self.events = new EventEmitter();
 
 }
 car.prototype = Object.create(EventEmitter.prototype);
